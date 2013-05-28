@@ -1,0 +1,3 @@
+@interface PRHDateComputationWindowController : NSWindowController
+
+@end

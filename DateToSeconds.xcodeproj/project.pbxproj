@@ -13,6 +13,8 @@
 		31E6107E174D7F4E000F2138 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31E6107C174D7F4E000F2138 /* Credits.rtf */; };
 		31E61081174D7F4E000F2138 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E61080174D7F4E000F2138 /* PRHAppDelegate.m */; };
 		31E61084174D7F4E000F2138 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E61082174D7F4E000F2138 /* MainMenu.xib */; };
+		31E6108D174D80AF000F2138 /* PRHDateComputationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E6108B174D80AF000F2138 /* PRHDateComputationWindowController.m */; };
+		31E6108F174D80C5000F2138 /* PRHDateComputationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31E61091174D80C5000F2138 /* PRHDateComputationWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		31E6107F174D7F4E000F2138 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
 		31E61080174D7F4E000F2138 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		31E61083174D7F4E000F2138 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31E6108A174D80AF000F2138 /* PRHDateComputationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHDateComputationWindowController.h; sourceTree = "<group>"; };
+		31E6108B174D80AF000F2138 /* PRHDateComputationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHDateComputationWindowController.m; sourceTree = "<group>"; };
+		31E61090174D80C5000F2138 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/PRHDateComputationWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				31E6107F174D7F4E000F2138 /* PRHAppDelegate.h */,
 				31E61080174D7F4E000F2138 /* PRHAppDelegate.m */,
 				31E61082174D7F4E000F2138 /* MainMenu.xib */,
+				31E6108A174D80AF000F2138 /* PRHDateComputationWindowController.h */,
+				31E6108B174D80AF000F2138 /* PRHDateComputationWindowController.m */,
+				31E61091174D80C5000F2138 /* PRHDateComputationWindowController.xib */,
 				31E61074174D7F4D000F2138 /* Supporting Files */,
 			);
 			path = DateToSeconds;
@@ -157,6 +165,7 @@
 				31E61078174D7F4D000F2138 /* InfoPlist.strings in Resources */,
 				31E6107E174D7F4E000F2138 /* Credits.rtf in Resources */,
 				31E61084174D7F4E000F2138 /* MainMenu.xib in Resources */,
+				31E6108F174D80C5000F2138 /* PRHDateComputationWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 			files = (
 				31E6107A174D7F4D000F2138 /* main.m in Sources */,
 				31E61081174D7F4E000F2138 /* PRHAppDelegate.m in Sources */,
+				31E6108D174D80AF000F2138 /* PRHDateComputationWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +207,14 @@
 				31E61083174D7F4E000F2138 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		31E61091174D80C5000F2138 /* PRHDateComputationWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E61090174D80C5000F2138 /* en */,
+			);
+			name = PRHDateComputationWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
